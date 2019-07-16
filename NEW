@@ -1,0 +1,9 @@
+public class Test003 {
+    public static void main(String[] args) {
+        byte b = 100;
+        int i = 22;
+        float f = 78.98f;
+        int res = b + i + (int)f;    //此处对f使用了强制类型转换(int)f，转换后的值为78
+        System.out.println("res: "+res);    //res: 200
+    }
+}
